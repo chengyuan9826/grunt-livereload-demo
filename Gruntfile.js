@@ -40,6 +40,8 @@ module.exports = function(grunt) {
             },
             dev: {
                 options: {
+                    atBegin:true,
+                    reload:true,
                     base: "web1",
                     port: 2222,
                     hostname: '*',
